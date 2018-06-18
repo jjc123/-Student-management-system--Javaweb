@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>学生管理系统</title>
+<!-- Bootstrap -->
+<!--Bootstrap的CDN-->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>教务系统</title>
+</head>
+<div class="container">
+ <frameset rows="15%, 85%" >
+        <frame src="top.html" >
+        <frameset cols="180,*">
+            <frame src="left.html">
+            <frame src="right.html" name="showframe">
+        </frameset>
+        <noframes>
+            <body>
+                <p>对不起，您的浏览器不支持框架！</p>
+            </body>
+        </noframes>
+    </frameset>
+</div>
+</html>

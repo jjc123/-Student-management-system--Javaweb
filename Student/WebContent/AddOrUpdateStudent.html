@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/ready.js"></script>
+<script type="text/javascript"> 
+ window.onload = function () { 
+	var name=UrlParm.parm("name");   
+	document.getElementById("field＿id").value=name;
+};  
+</script> 
+</head>
+<body>
+<div class="container">
+  <h2>添加学生信息</h2>
+  <form role="form" action="/Student/AddServlet" method="Post">
+    <div class="form-group">
+      <label for="number">请填写学生学号:</label>
+      <input type="text" class="form-control input-lg" id="id" name="id" placeholder="学生  学号">
+    </div>
+    <div class="form-group">
+      <label for="name">请填写学生姓名:</label>
+      <input type="text" class="form-control input-lg" name="name" id="name" placeholder="学生  姓名">
+    </div>
+	<div class="form-group">
+	<label>学生性别:</label><br/>
+	<label class="radio-inline"><input type="radio" name="gender" value="男"/>男</label>
+	<label class="radio-inline"><input type="radio" name="gender" value="女"/>女</label>
+	</div>
+     <div class="form-group">
+      <label for="age">请填写学生年龄:</label>
+      <input type="text" class="form-control input-lg" name="age" id="age" placeholder="学生  年龄">
+    </div>
+	<div class="form-group">
+      <label for="phone">请填写联系方式:</label>
+      <input type="text" class="form-control input-lg" name="phone" id="phone" placeholder="联系  方式">
+    </div>
+	<div class="form-group">
+      <label for="QQ">请填写QQ:</label>
+      <input type="text" class="form-control input-lg" name="QQ" id="QQ" placeholder="学生  QQ">
+    </div>
+	<div class="form-group">
+      <label for="adress">请填写居住地址:</label>
+      <input type="text" class="form-control input-lg" name="adress" id="adress" placeholder="居住  地址">
+    </div>
+	<input type="hidden" name="field＿name" id="field＿id" value="value" />
+    <button type="submit" class="btn btn-default input-lg">Submit</button>
+  </form>
+</div>
+</body>
+</html>
