@@ -36,11 +36,13 @@
 ```
 7. Junit5
 ```
-效果图：
-登陆页面：
+##效果图：
+####登陆页面：
 
-![](https://github.com/jjc123/-Student-management-system--Javaweb/blob/master/Design%20sketch/1.png?raw=true)
-管理页面：
+![](https://github.com/jjc123/-Student-management-system--Javaweb/blob/master/Design%20sketch/1.png)  
+
+####管理页面：  
+
 ![](https://github.com/jjc123/-Student-management-system--Javaweb/blob/master/Design%20sketch/2.png)
 
 
