@@ -37,8 +37,6 @@
 7. Junit5
 ```
 
-单元测试：
 
-
-
+!()[https://github.com/jjc123/-Student-management-system--Javaweb/blob/master/Design%20sketch/1.png?raw=true]
 
