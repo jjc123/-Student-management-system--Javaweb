@@ -16,7 +16,7 @@
 
 ```
   2. Java基础 
-	3. Tomcat简单使用
+  3. Tomcat简单使用
   4. Http协议了解
   5. Servlet知识	
 ```
